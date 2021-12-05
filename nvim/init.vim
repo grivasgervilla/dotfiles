@@ -9,6 +9,7 @@ set shiftwidth=4 "Set width for autoindents.
 set expandtab "Converts tabs to white spaces.
 set softtabstop=4 "See multiple spaces as tabstops so <BS> does the right thing.
 set cursorline "Highlight current cursorline.
+set termguicolors
 
 syntax on "Turn on syntax highlighting.
 syntax enable
