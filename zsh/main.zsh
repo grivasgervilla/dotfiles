@@ -76,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 VI_MODE_SET_CURSOR=true
+bindkey jk vi-cmd-mode #Bind jk to exit from insert to normal mode.
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
