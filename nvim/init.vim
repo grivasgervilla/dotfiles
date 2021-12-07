@@ -63,6 +63,9 @@ let g:vimtex_compiler_latexmk = {
 imap jk <Esc>
 imap JK <Esc>
 
+"Move cursor to end of line in insert mode 
+imap <C-e> <Esc>A
+
 source $HOME/.config/nvim/keys/which-key.vim
 
 "Specify snippet directories for UltiSnips

@@ -27,6 +27,12 @@ snippet begin "New Environment" b
 \end{$1}
 endsnippet
 
+snippet def "New Definition" b
+\begin{definition}[${1}~\label{def:${2}}]
+	${0}
+\end{definition}
+endsnippet
+
 snippet c "New Cite" i
 ~\cite{${1}}
 endsnippet
