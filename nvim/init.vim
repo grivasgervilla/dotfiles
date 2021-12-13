@@ -60,6 +60,7 @@ let g:vimtex_compiler_latexmk = {
 
 
 "Press j and k to go from INSERT mode to NORMAL mode:
+map ñ :
 imap jk <Esc>
 imap JK <Esc>
 
