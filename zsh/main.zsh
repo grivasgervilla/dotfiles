@@ -78,6 +78,9 @@ source $ZSH/oh-my-zsh.sh
 VI_MODE_SET_CURSOR=true
 bindkey jk vi-cmd-mode #Bind jk to exit from insert to normal mode.
 
+## Alias
+alias vi="nvim"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
